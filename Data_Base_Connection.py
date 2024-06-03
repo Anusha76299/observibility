@@ -8,7 +8,7 @@ def get_connection():
         dbname="postgres",
         user=DB_USER,
         password=DB_PASSWORD,
-        host=postgres,
+        host="postgres",
         port=5432
     )
     return conn
